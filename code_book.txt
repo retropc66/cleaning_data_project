@@ -1,0 +1,76 @@
+# Code book for summarized_data.txt
+# Original data from the UCI HAR dataset
+# This file contains a summary of the UCI HAR data
+
+# All columns contain an average (mean) of the 
+# mean or standard deviation (std) of all measurements
+# for the given subject while performing the given activity
+
+subject - an integer identifying the subject (1-30)
+activity - a description of the activity being performed
+tBodyAcc_mean_X - mean of total body acceleration in the X-axis measured by accelerometer
+tBodyAcc_mean_Y - mean of total body acceleration in the Y-axis measured by accelerometer
+tBodyAcc_mean_Z - mean of total body acceleration in the Z-axis measured by accelerometer
+tBodyAcc_std_X - SD of total body acceleration in the X-axis measured by accelerometer
+tBodyAcc_std_Y - SD of total body acceleration in the Y-axis measured by accelerometer
+tBodyAcc_std_Z - SD of total body acceleration in the Z-axis measured by accelerometer
+tGravityAcc_mean_X - mean of total gravity acceleration in the X-axis measured by accelerometer
+tGravityAcc_mean_Y - mean of total gravity acceleration in the Y-axis measured by accelerometer
+tGravityAcc_mean_Z - mean of total gravity acceleration in the Z-axis measured by accelerometer
+tGravityAcc_std_X - SD of total gravity acceleration in the X-axis measured by accelerometer
+tGravityAcc_std_Y - SD of total gravity acceleration in the Y-axis measured by accelerometer
+tGravityAcc_std_Z - SD of total gravity acceleration in the Z-axis measured by accelerometer
+tBodyAccJerk_mean_X - mean of body jerk acceleration in the X-axis measured by accelerometer
+tBodyAccJerk_mean_Y - mean of body jerk acceleration in the Y-axis measured by accelerometer
+tBodyAccJerk_mean_Z - mean of body jerk acceleration in the Z-axis measured by accelerometer
+tBodyAccJerk_std_X - SD of body jerk acceleration in the X-axis measured by accelerometer
+tBodyAccJerk_std_Y - SD of body jerk acceleration in the Y-axis measured by accelerometer
+tBodyAccJerk_std_Z - SD of body jerk acceleration in the Z-axis measured by accelerometer
+tBodyGyro_mean_X - mean of total body acceleration in the X-axis measured by gyroscope
+tBodyGyro_mean_Y - mean of total body acceleration in the Y-axis measured by gyroscope
+tBodyGyro_mean_Z - mean of total body acceleration in the Z-axis measured by gyroscope
+tBodyGyro_std_X - SD of total body acceleration in the X-axis measured by gyroscope
+tBodyGyro_std_Y - SD of total body acceleration in the Y-axis measured by gyroscope
+tBodyGyro_std_Z - SD of total body acceleration in the Z-axis measured by gyroscope
+tBodyGyroJerk_mean_X - mean of body jerk acceleration in the X-axis measured by gyroscope
+tBodyGyroJerk_mean_Y - mean of body jerk acceleration in the Y-axis measured by gyroscope
+tBodyGyroJerk_mean_Z - mean of body jerk acceleration in the Z-axis measured by gyroscope
+tBodyGyroJerk_std_X - SD of body jerk acceleration in the X-axis measured by gyroscope
+tBodyGyroJerk_std_Y - SD of body jerk acceleration in the Y-axis measured by gyroscope
+tBodyGyroJerk_std_Z - SD of body jerk acceleration in the Z-axis measured by gyroscope
+tBodyAccMag_mean - mean magnitude of total body acceleration
+tBodyAccMag_std - SD of magnitude of total body acceleration
+tGravityAccMag_mean - mean magnitude of gravitational acceleration
+tGravityAccMag_std - SD of magnitude of gravitational acceleration
+tBodyAccJerkMag_mean - mean magnitude of body jerk acceleration
+tBodyAccJerkMag_std	- SD of magnitude of body jerk acceleration
+tBodyGyroMag_mean - mean magnitude of gyroscopic measurements
+tBodyGyroMag_std - SD of magnitude of gyroscopic measurements
+tBodyGyroJerkMag_mean - mean magnitude of gyroscopic jerk measurements
+tBodyGyroJerkMag_std - SD of magnitude of gyroscopic jerk measurements
+fBodyAcc_mean_X - mean of FFT of body acceleration in X-axis measured by accelerometer
+fBodyAcc_mean_Y - mean of FFT of body acceleration in Y-axis measured by accelerometer
+fBodyAcc_mean_Z - mean of FFT of body acceleration in Z-axis measured by accelerometer
+fBodyAcc_std_X - mean of FFT of body acceleration in X-axis measured by accelerometer
+fBodyAcc_std_Y - mean of FFT of body acceleration in Y-axis measured by accelerometer
+fBodyAcc_std_Z - mean of FFT of body acceleration in Z-axis measured by accelerometer
+fBodyAccJerk_mean_X - mean of FFT of body jerk acceleration in X-axis measured by accelerometer
+fBodyAccJerk_mean_Y - mean of FFT of body jerk acceleration in Y-axis measured by accelerometer
+fBodyAccJerk_mean_Z - mean of FFT of body jerk acceleration in Z-axis measured by accelerometer
+fBodyAccJerk_std_X - mean of FFT of body jerk acceleration in X-axis measured by accelerometer
+fBodyAccJerk_std_Y - mean of FFT of body jerk acceleration in Y-axis measured by accelerometer
+fBodyAccJerk_std_Z - mean of FFT of body jerk acceleration in Z-axis measured by accelerometer
+fBodyGyro_mean_X - mean of FFT of body acceleration in X-axis measured by gyroscope
+fBodyGyro_mean_Y - mean of FFT of body acceleration in Y-axis measured by gyroscope
+fBodyGyro_mean_Z - mean of FFT of body acceleration in Z-axis measured by gyroscope
+fBodyGyro_std_X - mean of FFT of body acceleration in X-axis measured by gyroscope
+fBodyGyro_std_Y - mean of FFT of body acceleration in Y-axis measured by gyroscope
+fBodyGyro_std_Z - mean of FFT of body acceleration in Z-axis measured by gyroscope
+fBodyAccMag_mean
+fBodyAccMag_std
+fBodyAccJerkMag_mean
+fBodyAccJerkMag_std
+fBodyGyroMag_mean
+fBodyGyroMag_std
+fBodyGyroJerkMag_mean
+fBodyGyroJerkMag_std
