@@ -6,6 +6,9 @@
 # mean or standard deviation (std) of all measurements
 # for the given subject while performing the given activity
 
+# Features measured by the accelerometer are in standard gravity units (g)
+# Features measured by the gyroscope are in units of radians/second
+
 subject - an integer identifying the subject (1-30)
 activity - a description of the activity being performed
 tBodyAcc_mean_X - mean of total body acceleration in the X-axis measured by accelerometer
@@ -38,39 +41,39 @@ tBodyGyroJerk_mean_Z - mean of body jerk acceleration in the Z-axis measured by 
 tBodyGyroJerk_std_X - SD of body jerk acceleration in the X-axis measured by gyroscope
 tBodyGyroJerk_std_Y - SD of body jerk acceleration in the Y-axis measured by gyroscope
 tBodyGyroJerk_std_Z - SD of body jerk acceleration in the Z-axis measured by gyroscope
-tBodyAccMag_mean - mean magnitude of total body acceleration
-tBodyAccMag_std - SD of magnitude of total body acceleration
-tGravityAccMag_mean - mean magnitude of gravitational acceleration
-tGravityAccMag_std - SD of magnitude of gravitational acceleration
-tBodyAccJerkMag_mean - mean magnitude of body jerk acceleration
-tBodyAccJerkMag_std	- SD of magnitude of body jerk acceleration
-tBodyGyroMag_mean - mean magnitude of gyroscopic measurements
-tBodyGyroMag_std - SD of magnitude of gyroscopic measurements
-tBodyGyroJerkMag_mean - mean magnitude of gyroscopic jerk measurements
-tBodyGyroJerkMag_std - SD of magnitude of gyroscopic jerk measurements
-fBodyAcc_mean_X - mean of FFT of body acceleration in X-axis measured by accelerometer
-fBodyAcc_mean_Y - mean of FFT of body acceleration in Y-axis measured by accelerometer
-fBodyAcc_mean_Z - mean of FFT of body acceleration in Z-axis measured by accelerometer
-fBodyAcc_std_X - mean of FFT of body acceleration in X-axis measured by accelerometer
-fBodyAcc_std_Y - mean of FFT of body acceleration in Y-axis measured by accelerometer
-fBodyAcc_std_Z - mean of FFT of body acceleration in Z-axis measured by accelerometer
-fBodyAccJerk_mean_X - mean of FFT of body jerk acceleration in X-axis measured by accelerometer
-fBodyAccJerk_mean_Y - mean of FFT of body jerk acceleration in Y-axis measured by accelerometer
-fBodyAccJerk_mean_Z - mean of FFT of body jerk acceleration in Z-axis measured by accelerometer
-fBodyAccJerk_std_X - mean of FFT of body jerk acceleration in X-axis measured by accelerometer
-fBodyAccJerk_std_Y - mean of FFT of body jerk acceleration in Y-axis measured by accelerometer
-fBodyAccJerk_std_Z - mean of FFT of body jerk acceleration in Z-axis measured by accelerometer
-fBodyGyro_mean_X - mean of FFT of body acceleration in X-axis measured by gyroscope
-fBodyGyro_mean_Y - mean of FFT of body acceleration in Y-axis measured by gyroscope
-fBodyGyro_mean_Z - mean of FFT of body acceleration in Z-axis measured by gyroscope
-fBodyGyro_std_X - mean of FFT of body acceleration in X-axis measured by gyroscope
-fBodyGyro_std_Y - mean of FFT of body acceleration in Y-axis measured by gyroscope
-fBodyGyro_std_Z - mean of FFT of body acceleration in Z-axis measured by gyroscope
-fBodyAccMag_mean
-fBodyAccMag_std
-fBodyAccJerkMag_mean
-fBodyAccJerkMag_std
-fBodyGyroMag_mean
-fBodyGyroMag_std
-fBodyGyroJerkMag_mean
-fBodyGyroJerkMag_std
+tBodyAccMag_mean - mean magnitude of total body acceleration (accelerometer)
+tBodyAccMag_std - SD of magnitude of total body acceleration (accelerometer)
+tGravityAccMag_mean - mean magnitude of gravitational acceleration (accelerometer)
+tGravityAccMag_std - SD of magnitude of gravitational acceleration (accelerometer)
+tBodyAccJerkMag_mean - mean magnitude of body jerk acceleration (accelerometer)
+tBodyAccJerkMag_std	- SD of magnitude of body jerk acceleration (accelerometer)
+tBodyGyroMag_mean - mean magnitude of body acceleration measurements (gyroscope)
+tBodyGyroMag_std - SD of magnitude of body acceleration measurements (gyroscope)
+tBodyGyroJerkMag_mean - mean magnitude of gyroscopic jerk measurements (gyroscope)
+tBodyGyroJerkMag_std - SD of magnitude of gyroscopic jerk measurements (gyroscope)
+fBodyAcc_mean_X - mean of Fourier Transform of body acceleration in X-axis measured by accelerometer
+fBodyAcc_mean_Y - mean of Fourier Transform of body acceleration in Y-axis measured by accelerometer
+fBodyAcc_mean_Z - mean of Fourier Transform of body acceleration in Z-axis measured by accelerometer
+fBodyAcc_std_X - SD of Fourier Transform of body acceleration in X-axis measured by accelerometer
+fBodyAcc_std_Y - SD of Fourier Transform of body acceleration in Y-axis measured by accelerometer
+fBodyAcc_std_Z - SD of Fourier Transform of body acceleration in Z-axis measured by accelerometer
+fBodyAccJerk_mean_X - mean of Fourier Transform of body jerk acceleration in X-axis measured by accelerometer
+fBodyAccJerk_mean_Y - mean of Fourier Transform of body jerk acceleration in Y-axis measured by accelerometer
+fBodyAccJerk_mean_Z - mean of Fourier Transform of body jerk acceleration in Z-axis measured by accelerometer
+fBodyAccJerk_std_X - SD of Fourier Transform of body jerk acceleration in X-axis measured by accelerometer
+fBodyAccJerk_std_Y - SD of Fourier Transform of body jerk acceleration in Y-axis measured by accelerometer
+fBodyAccJerk_std_Z - SD of Fourier Transform of body jerk acceleration in Z-axis measured by accelerometer
+fBodyGyro_mean_X - mean of Fourier Transform of body acceleration in X-axis measured by gyroscope
+fBodyGyro_mean_Y - mean of Fourier Transform of body acceleration in Y-axis measured by gyroscope
+fBodyGyro_mean_Z - mean of Fourier Transform of body acceleration in Z-axis measured by gyroscope
+fBodyGyro_std_X - SD of Fourier Transform of body acceleration in X-axis measured by gyroscope
+fBodyGyro_std_Y - SD of Fourier Transform of body acceleration in Y-axis measured by gyroscope
+fBodyGyro_std_Z - SD of Fourier Transform of body acceleration in Z-axis measured by gyroscope
+fBodyAccMag_mean - mean of Fourier Transform of magnitude of accceleration (accelerometer)
+fBodyAccMag_std - SD of Fourier Transform of magnitude of accceleration (accelerometer)
+fBodyAccJerkMag_mean - mean of Fourier Transform of  magnitude of body jerk acceleration (accelerometer)
+fBodyAccJerkMag_std - SD of Fourier Transform of  magnitude of body jerk acceleration (accelerometer)
+fBodyGyroMag_mean - mean of Fourier Transform of magnitude of gyroscopic acceleration (gyroscope)
+fBodyGyroMag_std - SD of Fourier Transform of magnitude of gyroscopic acceleration (gyroscope)
+fBodyGyroJerkMag_mean - mean of Fourier Transform of magnitude of gyroscopic jerk acceleration (gyroscope)
+fBodyGyroJerkMag_std - SD of Fourier Transform of magnitude of gyroscopic jerk acceleration (gyroscope)
